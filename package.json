@@ -1,7 +1,7 @@
 {
   "name": "materialdesign-react",
   "version": "0.0.1",
-  "description": "Material Design Icons as tree-shakeable React components with lucide-react's DX: import { Home } from \"mdi-lucide-react\".",
+  "description": "Material Design Icons as tree-shakeable React components with lucide-react's DX: import { Home } from \"materialdesign-react\".",
   "type": "module",
   "sideEffects": false,
   "main": "./dist/index.cjs",
