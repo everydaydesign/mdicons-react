@@ -1,7 +1,7 @@
 # materialdesign-react
 
-[Material Design Icons](https://pictogrammers.com/library/mdi/) (~7,600 icons) as tree-shakeable
-React components with **lucide-react's exact DX**:
+[Material Design Icons](https://pictogrammers.com/library/mdi/) (~7,600 icons) as **tree-shakeable
+React components** with clean named imports:
 
 ```tsx
 import { Home, History, Delete } from "materialdesign-react";
