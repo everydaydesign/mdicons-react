@@ -1,4 +1,7 @@
-# materialdesign-react
+# mdicons-react
+
+[![npm version](https://img.shields.io/npm/v/mdicons-react)](https://www.npmjs.com/package/mdicons-react)
+[![license](https://img.shields.io/npm/l/mdicons-react)](./LICENSE)
 
 [Material Design Icons](https://pictogrammers.com/library/mdi/) (~7,600 icons) as **tree-shakeable
 React components** with clean named imports.
@@ -6,8 +9,8 @@ React components** with clean named imports.
 ## Install
 
 ```bash
-npm install materialdesign-react
-# pnpm add materialdesign-react · yarn add materialdesign-react · bun add materialdesign-react
+npm install mdicons-react
+# pnpm add mdicons-react · yarn add mdicons-react · bun add mdicons-react
 ```
 
 Requires React 17+ (peer dependency).
@@ -15,7 +18,7 @@ Requires React 17+ (peer dependency).
 ## Usage
 
 ```tsx
-import { Home, History, Delete } from "materialdesign-react";
+import { Home, History, Delete } from "mdicons-react";
 
 <Home size={20} className="text-blue-500" />;
 ```
