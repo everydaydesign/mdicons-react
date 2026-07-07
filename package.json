@@ -1,5 +1,5 @@
 {
-  "name": "mdi-react",
+  "name": "md-icons-react",
   "version": "0.0.1",
   "description": "Material Design Icons as tree-shakeable React components with lucide-react's DX: import { Home } from \"mdi-lucide-react\".",
   "type": "module",

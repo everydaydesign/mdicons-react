@@ -1,10 +1,10 @@
-# mdi-react
+# md-icons-react
 
 [Material Design Icons](https://pictogrammers.com/library/mdi/) (~7,600 icons) as tree-shakeable
 React components with **lucide-react's exact DX**:
 
 ```tsx
-import { Home, History, Delete } from "mdi-react";
+import { Home, History, Delete } from "md-icons-react";
 
 <Home size={20} className="text-blue-500" />;
 ```
