@@ -14,14 +14,33 @@
       "require": "./dist/index.cjs"
     }
   },
-  "files": ["dist", "NOTICE"],
+  "files": [
+    "dist",
+    "NOTICE"
+  ],
   "scripts": {
     "generate": "node scripts/generate.mjs",
     "build": "tsup src/index.ts --format esm,cjs --dts --treeshake",
     "prepublishOnly": "npm run generate && npm run build"
   },
-  "keywords": ["material design icons", "mdi", "react", "icons", "svg", "tree-shakeable"],
+  "keywords": [
+    "material design icons",
+    "mdi",
+    "react",
+    "icons",
+    "svg",
+    "tree-shakeable"
+  ],
   "license": "Apache-2.0",
+  "author": "everydaydesign",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/everydaydesign/materialdesign-react.git"
+  },
+  "homepage": "https://github.com/everydaydesign/materialdesign-react#readme",
+  "bugs": {
+    "url": "https://github.com/everydaydesign/materialdesign-react/issues"
+  },
   "peerDependencies": {
     "react": ">=17"
   },
