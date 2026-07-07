@@ -1,6 +1,6 @@
 {
   "name": "mdicons-react",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Material Design Icons as tree-shakeable React components: import { Home } from \"mdicons-react\".",
   "type": "module",
   "sideEffects": false,

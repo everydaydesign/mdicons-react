@@ -35,10 +35,9 @@ import { Home, History, Delete } from "mdicons-react";
 3. **`npm run build`** — tsup emits ESM + CJS + `.d.ts` to `dist/`.
 4. **Publish** — `npm publish` (runs generate + build via `prepublishOnly`).
 
-## Staying current
+## Updating icons
 
-`.github/workflows/update-icons.yml` runs weekly: bumps `@mdi/svg`, regenerates, and opens a PR if
-the icon set changed. Merge to ship.
+Bump `@mdi/svg` to the latest, run `npm run generate`, then publish a new version.
 
 ## License
 
