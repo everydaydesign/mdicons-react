@@ -1,7 +1,18 @@
 # materialdesign-react
 
 [Material Design Icons](https://pictogrammers.com/library/mdi/) (~7,600 icons) as **tree-shakeable
-React components** with clean named imports:
+React components** with clean named imports.
+
+## Install
+
+```bash
+npm install materialdesign-react
+# pnpm add materialdesign-react · yarn add materialdesign-react · bun add materialdesign-react
+```
+
+Requires React 17+ (peer dependency).
+
+## Usage
 
 ```tsx
 import { Home, History, Delete } from "materialdesign-react";
