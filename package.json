@@ -14,7 +14,7 @@
       "require": "./dist/index.cjs"
     }
   },
-  "files": ["dist"],
+  "files": ["dist", "NOTICE"],
   "scripts": {
     "generate": "node scripts/generate.mjs",
     "build": "tsup src/index.ts --format esm,cjs --dts --treeshake",
